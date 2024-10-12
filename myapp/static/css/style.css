@@ -1,0 +1,64 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.navbar{
+    background-color: #df755d;
+    font-family: Verdana;
+    padding: 17px 30px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+li a{
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.myName{
+    margin-right: 100px;
+}
+.logo{
+    max-height: 50px;
+    margin-right: 30px;
+}
+
+.navTwo{
+    display: flex;
+    align-items: center;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.mainBody, h2{
+    font-size: 5rem;
+}
+
+h1{
+    font-size: 2rem;
+}
