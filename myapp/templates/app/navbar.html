@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+     <nav class="navbar">
+        <div class="navdiv">
+            <div class="navTwo">
+                <img class="logo" src="{% static 'images/Libarnes-logo.png' %}" alt="">
+                <div class="myName"><h1>MITCH LIBARNES</h1></div>
+            </div>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+            </ul>
+        </div>
+    </nav>
+{% endblock %}
